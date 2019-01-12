@@ -1,0 +1,103 @@
+.dropArea {
+  padding-top: 100px;
+}
+
+.innerDrop {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  background: linear-gradient(45deg, #b0fffb, #78decd);
+  border-radius: 10px;
+}
+
+.dropBorder {
+  border: 4px dashed #004f90;
+}
+
+.dropzone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.listLocation {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 640px;
+}
+
+.selectedList {
+  background-color: white;
+  border: 1px solid #25577d;
+}
+
+.selectedFile {
+  font-size: 13px;
+  margin-top: 5px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background-color: red;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before,
+.close:after {
+  position: absolute;
+  left: 8px;
+  content: " ";
+  height: 18px;
+  width: 2px;
+  background-color: #333;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.uploadBtn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50px;
+  padding: 20px 20px 17px;
+  border-radius: 20px;
+  color: white;
+  background-color: #053076;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.uploadBtn:hover {
+  background-color: rgb(94, 189, 230);
+}
